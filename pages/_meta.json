@@ -1,15 +1,49 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Home",
+    "display": "hidden",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "another": {
+    "title": "Another Page",
+    "display": "hidden"
+  },
+  "collection": {
+    "title": "Collection",
+    "type": "page"
+  },
+  "learning": {
+    "type": "menu",
+    "title": "Learning",
+    "items": {
+      "python": {
+        "title": "python",
+        "href": "/python"
+      },
+      "rust": {
+        "title": "Rust",
+        "href": "/rust"
+      }
+    }
+  },
+  "rust": {
+    "title": "Rust",
+    "type": "page",
+    "display": "hidden"
+  },
+  "python": {
+    "title": "Python",
+    "type": "page",
+    "display": "hidden"
+  },
+  "articles": {
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }
