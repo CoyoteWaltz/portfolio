@@ -7,26 +7,33 @@
       "breadcrumb": false
     }
   },
-  "another": {
-    "title": "Another Page",
-    "display": "hidden"
-  },
-  "collection": {
-    "title": "Collection",
-    "type": "page"
-  },
   "learning": {
     "type": "menu",
     "title": "Learning",
     "items": {
+      "front_end_notes": {
+        "title": "Front End",
+        "href": "/front_end_notes"
+      },
       "python": {
         "title": "python",
-        "href": "/python"
+        "href": "/python/intro"
       },
       "rust": {
         "title": "Rust",
         "href": "/rust"
       }
+    }
+  },
+  "reading": {
+    "title": "Reading List",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
     }
   },
   "rust": {
@@ -39,11 +46,9 @@
     "type": "page",
     "display": "hidden"
   },
-  "articles": {
-    "type": "page"
-  },
-  "about": {
-    "title": "About",
+  "front_end_notes": {
+    "display": "hidden",
+    "title": "Front End",
     "type": "page"
   }
 }

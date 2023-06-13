@@ -2,30 +2,39 @@
   "name": "portfolio",
   "version": "0.0.1",
   "description": "coyote's portfolio",
+  "author": "CoyoteWaltz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoyoteWaltz/portolio"
+  },
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "dev": "next dev",
     "build": "next build",
     "prepare": "husky install",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CoyoteWaltz/portolio"
-  },
-  "author": "CoyoteWaltz",
-  "license": "MIT",
   "dependencies": {
-    "next": "^13.0.6",
+    "next": "^13.4.4",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.6.3",
+    "@antfu/eslint-config": "^0.39.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "@types/node": "18.11.10",
-    "commitlint": "^17.6.1",
+    "commitlint": "^17.6.5",
+    "eslint": "^8.42.0",
     "husky": "^8.0.3",
-    "typescript": "^5"
+    "lint-staged": "^13.2.2",
+    "typescript": "^5.0.4",
+    "zx": "^7.2.2"
+  },
+  "lint-staged": {
+    "*.js, *.ts, *.tsx, *.jsx": "eslint . --fix"
   }
 }

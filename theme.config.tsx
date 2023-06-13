@@ -1,8 +1,8 @@
-import React from 'react';
-import { DocsThemeConfig } from 'nextra-theme-docs';
-import pkgJSON from './package.json';
+import React from 'react'
+import type { DocsThemeConfig } from 'nextra-theme-docs'
+import pkgJSON from './package.json'
 
-const githubURL = 'https' + pkgJSON.repository.url.split('https')[1];
+const githubURL = `https${pkgJSON.repository.url.split('https')[1]}`
 
 const config: DocsThemeConfig = {
   logo: (
@@ -54,6 +54,11 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
-};
+  // gitTimestamp: ({ timestamp }) => (
+  //   <div>
+  //     <>time: {timestamp.toDateString()}</>
+  //   </div>
+  // ),
+}
 
-export default config;
+export default config
