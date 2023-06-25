@@ -37,6 +37,6 @@
     "zx": "^7.2.2"
   },
   "lint-staged": {
-    "scripts/*.{js,ts,tsx,jsx}": "eslint . --fix"
+    "./scripts/**/*.{js,ts,tsx,jsx}": "eslint ./scripts/** --fix"
   }
 }
