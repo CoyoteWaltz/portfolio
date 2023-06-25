@@ -1,6 +1,5 @@
-console.log('123')
+import { $ } from 'zx'
 
-function find() {
-  const e = 123
-  console.log(123 + e)
-}
+void (async function () {
+  await $`ls -la`
+}())

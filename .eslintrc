@@ -2,5 +2,6 @@
   "extends": "@antfu",
   "ignorePatterns": [
     "pages/**",
+    "temp/**"
   ],
 }

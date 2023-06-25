@@ -22,11 +22,19 @@
       "rust": {
         "title": "Rust",
         "href": "/rust"
+      },
+      "iso": {
+        "title": "Iso",
+        "href": "/iso"
       }
     }
   },
   "reading": {
     "title": "Reading List",
+    "type": "page"
+  },
+  "articles": {
+    "title": "Articles",
     "type": "page"
   },
   "about": {
@@ -50,5 +58,13 @@
     "display": "hidden",
     "title": "Front End",
     "type": "page"
+  },
+  "iso": {
+    "title": "iiioooss",
+    "display": "hidden",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
   }
 }
