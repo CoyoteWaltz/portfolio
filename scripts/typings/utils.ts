@@ -3,11 +3,8 @@ export type ValueOf<T extends Record<string, any> | any[] | Readonly<any[]>> = T
     [k in keyof T]: T[k]
   }[keyof T]
 
-// const ae = ['213', 1] as const
+export type Without<T, U> = { [P in Exclude<keyof T, keyof U>]?: never } // => U without T, 把 T 独有的 key 都变成 never
 
-// type ew = ValueOf<[1, 2, 3, 4]>
-// type eweee = ValueOf<typeof ae>
-// type ewee = ValueOf<{
-//   abd: 123
-//   dfaef: '123'
-// }>
+export type XOR<T, U> = T | U extends object
+  ? (Without<T, U> & U) | (Without<U, T> & T)
+  : T | U // 最终生成的结果还是类似自动加 never

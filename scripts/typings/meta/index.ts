@@ -1,18 +1,14 @@
-import { MenuItem, PageItem } from 'nextra/normalize-pages'
+import { Item, MenuItem, PageItem, PageTheme } from 'nextra/normalize-pages'
 
 export {
   PageItem,
+  Item,
   MenuItem,
+  PageTheme,
 }
 
-// export const metaSchema = z
-//   .string()
-//   .or(menuItemSchema)
-//   .or(separatorItemSchema)
-//   .or(itemSchema)
+export type MetaMenuItem = Pick<MenuItem, 'items' | 'type' | 'title' | 'display'>
 
-// const _p: PageItem = {
-//   type: '',
-//   display: 'hidden',
-//   title: 'df',
-// }
+export type MetaPageItem = Pick<Item, 'display' | 'theme' | 'title'>
+
+export type MenuSubItem = MetaMenuItem['items']

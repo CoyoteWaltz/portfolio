@@ -26,6 +26,58 @@
       "iso": {
         "title": "Iso",
         "href": "/iso"
+      },
+      "blockchain": {
+        "title": "blockchain",
+        "href": "/blockchain"
+      },
+      "computer_graphics": {
+        "title": "computer_graphics",
+        "href": "/computer_graphics"
+      },
+      "cpp": {
+        "title": "cpp",
+        "href": "/cpp"
+      },
+      "data structure and algorithm": {
+        "title": "data structure and algorithm",
+        "href": "/data structure and algorithm"
+      },
+      "functional_programming": {
+        "title": "functional_programming",
+        "href": "/functional_programming"
+      },
+      "golang": {
+        "title": "golang",
+        "href": "/golang"
+      },
+      "haskell": {
+        "title": "haskell",
+        "href": "/haskell"
+      },
+      "linux": {
+        "title": "linux",
+        "href": "/linux"
+      },
+      "markup": {
+        "title": "markup",
+        "href": "/markup"
+      },
+      "ml": {
+        "title": "ml",
+        "href": "/ml"
+      },
+      "openGL": {
+        "title": "openGL",
+        "href": "/openGL"
+      },
+      "shell": {
+        "title": "shell",
+        "href": "/shell"
+      },
+      "sql": {
+        "title": "sql",
+        "href": "/sql"
       }
     }
   },
