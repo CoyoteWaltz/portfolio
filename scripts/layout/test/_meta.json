@@ -1,0 +1,217 @@
+{
+  "learning": {
+    "title": "Learning",
+    "display": "hidden",
+    "type": "menu",
+    "items": {
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchain"
+      },
+      "computer_graphics": {
+        "title": "Computer Graphics",
+        "href": "/computer_graphics"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp"
+      },
+      "data structure and algorithm": {
+        "title": "Data Structure and Algorithm",
+        "href": "/data structure and algorithm"
+      },
+      "front_end_notes": {
+        "title": "Front End Notes",
+        "href": "/front_end_notes"
+      },
+      "functional_programming": {
+        "title": "Functional Programming",
+        "href": "/functional_programming"
+      },
+      "golang": {
+        "title": "Golang",
+        "href": "/golang"
+      },
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskell"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markup"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml"
+      },
+      "openGL": {
+        "title": "Opengl",
+        "href": "/openGL"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/python"
+      },
+      "rust": {
+        "title": "Rust",
+        "href": "/rust"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell"
+      },
+      "sql": {
+        "title": "SQL",
+        "href": "/sql"
+      }
+    }
+  },
+  "blockchain": {
+    "title": "Blockchain",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "computer_graphics": {
+    "title": "Computer Graphics",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "cpp": {
+    "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "data structure and algorithm": {
+    "title": "Data Structure and Algorithm",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "front_end_notes": {
+    "title": "Front End Notes",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "functional_programming": {
+    "title": "Functional Programming",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "golang": {
+    "title": "Golang",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "haskell": {
+    "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "linux": {
+    "title": "Linux",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "markup": {
+    "title": "Markup",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "ml": {
+    "title": "Ml",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "openGL": {
+    "title": "Opengl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "python": {
+    "title": "Python",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "rust": {
+    "title": "Rust",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sql": {
+    "title": "SQL",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  }
+}

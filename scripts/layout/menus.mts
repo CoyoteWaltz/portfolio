@@ -1,6 +1,5 @@
 import type { ValueOf, XOR } from '../typings/utils'
-import type { MenuSubItem, MetaMenuItem, MetaPageItem } from '../typings/meta/index'
-import { getItems } from './get-menu-items.mjs'
+import type { MetaMenuItem, MetaPageItem } from '../typings/meta/index'
 
 export const TARGET_DIRECTORIES = [
   '02learning_notes',
@@ -9,8 +8,9 @@ export const TARGET_DIRECTORIES = [
 
 type MenuConfig = Record<ValueOf<typeof TARGET_DIRECTORIES>, XOR<{
   menu: Omit<MetaMenuItem, 'items'>
-  getItems: (dirName: string) => MenuSubItem
+  metaKey: string
 }, {
+  metaKey: string
   page: MetaPageItem
 }>>
 
@@ -21,13 +21,14 @@ export const MENU_CONFIG = {
       display: 'hidden',
       type: 'menu',
     },
-    getItems,
+    metaKey: 'learning',
   },
   '08reading': {
     page: {
       title: 'Reading',
-      display: 'normal',
+      type: 'page',
     },
+    metaKey: 'reading',
   },
 } satisfies Readonly<MenuConfig>
 

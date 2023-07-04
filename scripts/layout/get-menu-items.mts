@@ -1,11 +1,15 @@
 import { fs, path } from 'zx'
-import type { MenuSubItem } from '../typings/meta'
+import type { MenuSubItem, MetaPageItem } from '../typings/meta'
 import { pageTitleFromFilename } from './utils.mjs'
 
-export function getItems(dirPath: string): MenuSubItem {
+export function getItems(dirPath: string): {
+  menuItems: MenuSubItem
+  flatItems: Record<string, MetaPageItem>
+} {
   const inner = fs.readdirSync(dirPath)
   console.log(inner)
-  const result: MenuSubItem = {}
+  const menuItems: MenuSubItem = {}
+  const flatItems: Record<string, MetaPageItem> = {}
   const filtered = inner.filter((name) => {
     const fullPath = path.join(dirPath, name)
     const stats = fs.statSync(fullPath)
@@ -21,13 +25,26 @@ export function getItems(dirPath: string): MenuSubItem {
   filtered.forEach((subject) => {
     console.log('subject', subject)
     const subjectPath = path.join(dirPath, subject)
-    const stats = fs.statSync(subjectPath)
+    // const stats = fs.statSync(subjectPath)
     const meta: MenuSubItem[''] = {
       title: pageTitleFromFilename(subject), // find title
       href: `/${subject}`,
     }
-    result[subject] = meta
+    menuItems[subject] = meta
+    flatItems[subject] = {
+      title: meta.title,
+      // 一些基础配置 可补充
+      display: 'hidden',
+      type: 'page',
+      theme: {
+        toc: true,
+        breadcrumb: false,
+      },
+    }
   })
 
-  return result
+  return {
+    menuItems,
+    flatItems,
+  }
 }
