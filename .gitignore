@@ -3,4 +3,6 @@ node_modules
 
 bin
 
-temp
+temp/**/*
+pages/**/*
+.DS_Store

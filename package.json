@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "dev": "next dev",
-    "dev:layout": "./scripts/layout/layout.mts",
+    "dev:layout": "./scripts/layout/index.mts",
     "build": "next build",
     "prepare": "husky install",
     "start": "next start"
@@ -33,6 +33,7 @@
     "eslint": "^8.42.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
+    "replace-in-file": "^7.0.1",
     "title": "^3.5.3",
     "tsup": "^6.7.0",
     "tsx": "^3.12.7",

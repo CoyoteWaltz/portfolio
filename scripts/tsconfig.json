@@ -9,6 +9,7 @@
     "incremental": true,
     "esModuleInterop": true,
     "module": "ESNext",
+    "lib": ["ESNext"],
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": false

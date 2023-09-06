@@ -3,27 +3,28 @@ import type { MetaMenuItem, MetaPageItem } from '../typings/meta/index'
 
 export const TARGET_DIRECTORIES = [
   '02learning_notes',
-  '08reading',
+  '08reading/literature_notes',
 ] as const
 
-type MenuConfig = Record<ValueOf<typeof TARGET_DIRECTORIES>, XOR<{
+export type MenuConfigValue = {
+  metaKey: string
+} & XOR<{
   menu: Omit<MetaMenuItem, 'items'>
-  metaKey: string
 }, {
-  metaKey: string
   page: MetaPageItem
-}>>
+}>
+
+export type MenuConfig = Record<ValueOf<typeof TARGET_DIRECTORIES>, MenuConfigValue>
 
 export const MENU_CONFIG = {
-  '02learning_notes': {
+  [TARGET_DIRECTORIES[0]]: {
     menu: {
       title: 'Learning',
-      display: 'hidden',
       type: 'menu',
     },
     metaKey: 'learning',
   },
-  '08reading': {
+  [TARGET_DIRECTORIES[1]]: {
     page: {
       title: 'Reading',
       type: 'page',
