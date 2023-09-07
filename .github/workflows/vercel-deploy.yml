@@ -15,8 +15,15 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@latest pnpm
+      - name: Check Node Version
+        run: nvm current
       - name: Install Deps
         run: pnpm install
+      - name: Check out Markdown repo
+        uses: actions/checkout@master
+        with:
+          repository: CoyoteWaltz/MarkdownNotes
+          token: ${{ secrets.PAT_TOKEN }}
       - name: Build Content Layout
         run: pnpm run build:layout
       - name: Pull Vercel Environment Information
