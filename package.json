@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "dev": "next dev",
-    "dev:layout": "./scripts/layout/index.mts",
+    "build:layout": "./scripts/layout/index.mts",
     "build": "next build",
     "prepare": "husky install",
     "start": "next start"
