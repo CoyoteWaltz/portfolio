@@ -5,15 +5,16 @@ import 'zx/globals'
 import { getMetaJSON } from './gen_meta/index.mjs'
 import { getFileMoveRecord, moveFiles } from './file_manage/move.mjs'
 import { modifyFiles } from './file_manage/modify.mjs'
-import { cloneRepo } from './clone_repo/index.mjs'
-import { cleanup } from './cleanup.mjs'
+
+// import { cloneRepo } from './clone_repo/index.mjs'
+// import { cleanup } from './cleanup.mjs'
 import { awaitPromiseArr } from './await.mjs'
 import { successLog } from './logger.mjs'
 import { writeFinalJSON } from './file_manage/write.mjs'
 
-await cleanup()
+// await cleanup()
 
-await cloneRepo()
+// await cloneRepo()
 
 await awaitPromiseArr([
   getMetaJSON().then((finalMetaJSON) => {
