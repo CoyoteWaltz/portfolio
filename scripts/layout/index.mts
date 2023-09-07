@@ -6,15 +6,22 @@ import { getMetaJSON } from './gen_meta/index.mjs'
 import { getFileMoveRecord, moveFiles } from './file_manage/move.mjs'
 import { modifyFiles } from './file_manage/modify.mjs'
 
-// import { cloneRepo } from './clone_repo/index.mjs'
-// import { cleanup } from './cleanup.mjs'
+import { cloneRepo } from './clone_repo/index.mjs'
+import { cleanup } from './cleanup.mjs'
 import { awaitPromiseArr } from './await.mjs'
 import { successLog } from './logger.mjs'
 import { writeFinalJSON } from './file_manage/write.mjs'
+import { moveSiteDocs } from './merge_docs.mjs'
+import { beforeStart } from './before.mjs'
 
-// await cleanup()
+if (process.env.DEV) {
+  console.log('======== DEBUG MODE')
+  await cleanup()
 
-// await cloneRepo()
+  await cloneRepo()
+}
+
+await beforeStart()
 
 await awaitPromiseArr([
   getMetaJSON().then((finalMetaJSON) => {
@@ -26,6 +33,8 @@ await awaitPromiseArr([
     return moveFiles(record)
   }),
 ])
+
+await moveSiteDocs()
 
 successLog('ALL DONE!')
 

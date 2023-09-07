@@ -1,0 +1,12 @@
+.home {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  background-color: #B5FFFC;
+  background-image: linear-gradient(12deg, #B5FFFC 0%, #FFDEE9 33%, #ffffff 66%, #ffffff 100%);
+  font-family: 'PT Sans' monospace;
+  color: rgb(194, 115, 11);
+}

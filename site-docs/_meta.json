@@ -1,0 +1,10 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Coyote's Portfolio",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  }
+}

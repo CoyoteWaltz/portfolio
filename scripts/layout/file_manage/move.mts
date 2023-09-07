@@ -38,14 +38,14 @@ export function getFileMoveRecord(): MovingRecord {
   return record
 }
 
-export async function moveSingleFile(src: string, dest: string) {
+export async function moveSingleFile(src: string, dest: string, options?: Parameters<typeof fs.move>[2]) {
   try {
-    await fs.move(src, dest)
-    successLog('moving file::success', src, 'to', dest)
+    await fs.move(src, dest, options)
+    successLog('Moving file::Success', src, 'to', dest)
   }
   catch (error) {
     errorLog(
-      'moving file::',
+      'Moving file::',
       src, 'to', dest,
       error,
     )
@@ -53,12 +53,15 @@ export async function moveSingleFile(src: string, dest: string) {
   }
 }
 
-export async function moveDirectFiles(dirPath: string, dest: string) {
-  const allFiles = await glob(`${dirPath}/**/*`)
+export async function moveDirectoryFiles(dirPath: string, dest: string, options?: {
+  globOptions?: Parameters<typeof glob>[1]
+  moveOptions?: Parameters<typeof moveSingleFile>[2]
+}) {
+  const allFiles = await glob(`${dirPath}/**/*`, options?.globOptions)
   return Promise.all(allFiles.map(async (file) => {
     const fileDest = path.join(dest, file.slice(dirPath.length))
     try {
-      await moveSingleFile(file, fileDest)
+      await moveSingleFile(file, fileDest, options?.moveOptions)
     }
     catch (error) {
     }
@@ -73,7 +76,7 @@ export async function moveFiles(record: MovingRecord) {
 
     const isSrcDir = (await fs.stat(srcPath)).isDirectory()
     if (isSrcDir) {
-      await moveDirectFiles(srcPath, destDir)
+      await moveDirectoryFiles(srcPath, destDir)
     }
     else {
       // 单独移动文件

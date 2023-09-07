@@ -7,12 +7,12 @@ const githubURL = `https${pkgJSON.repository.url.split('https')[1]}`
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span>:logo:</span>
+      {/* <span>:logo:</span> */}
       <span>Coyote's Portfolio</span>
     </>
   ),
   project: {
-    link: githubURL,
+    link: 'https://github.com/CoyoteWaltz/MarkdownNotes',
     // icon: (
     //   <svg width='24' height='24' viewBox='0 0 256 256'>
     //     <path
@@ -45,10 +45,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        Constantly put something into your portfolio. MIT{' '}
-        {new Date().getFullYear()} ©{' '}
+        <a href='https://github.com/CoyoteWaltz/' target='_blank'>
+          @CoyoteWaltz
+        </a>
+        {' '}{new Date().getFullYear()} ©{' '}
         <a href='#' target='_blank'>
-          ttt
+          portfolio
         </a>
         .
       </span>
