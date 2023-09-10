@@ -43,7 +43,7 @@ const config: DocsThemeConfig = {
     // ),
   },
   editLink: {
-    component: null,
+    component: () => null,
   },
   docsRepositoryBase: MarkdownGithubURL,
   footer: {
@@ -60,6 +60,10 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
+  sidebar: {
+    toggleButton: true,
+  },
+  // faviconGlyph: 'C',
   gitTimestamp: ({ timestamp }) => {
     const timeStr = timestamp.toLocaleDateString()
 
