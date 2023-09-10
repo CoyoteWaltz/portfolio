@@ -43,10 +43,6 @@
         "title": "Vim Note",
         "href": "/vim_note"
       },
-      "data_structure_&_algorithm": {
-        "title": "Data Structure & Algorithm",
-        "href": "/data_structure_&_algorithm/Tree and forest"
-      },
       "blockchain": {
         "title": "Blockchain",
         "href": "/blockchain/blockstack"
@@ -54,6 +50,10 @@
       "cpp": {
         "title": "Cpp",
         "href": "/cpp/cmake_intro"
+      },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithm/Tree and forest"
       },
       "design": {
         "title": "Design",
@@ -83,29 +83,33 @@
         "title": "Ml",
         "href": "/ml/Mahalanobias_distance"
       },
-      "redis": {
-        "title": "Redis",
-        "href": "/redis/intro"
-      },
       "python": {
         "title": "Python",
         "href": "/python/env_config"
       },
-      "sql": {
-        "title": "SQL",
-        "href": "/sql/learn_sql"
-      },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
+      "redis": {
+        "title": "Redis",
+        "href": "/redis/intro"
       },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
       },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
+      },
+      "sql": {
+        "title": "SQL",
+        "href": "/sql/learn_sql"
+      },
       "computer_graphics": {
         "title": "Computer Graphics",
         "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux/linux_c_archived"
       },
       "front_end_notes": {
         "title": "Front End Notes",
@@ -114,10 +118,6 @@
       "openGL": {
         "title": "Opengl",
         "href": "/openGL/glsl/glsl_intro"
-      },
-      "linux": {
-        "title": "Linux",
-        "href": "/linux/linux_c_archived"
       }
     }
   },
@@ -202,15 +202,6 @@
       "breadcrumb": false
     }
   },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "blockchain": {
     "title": "Blockchain",
     "display": "hidden",
@@ -222,6 +213,15 @@
   },
   "cpp": {
     "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -292,15 +292,6 @@
       "breadcrumb": false
     }
   },
-  "redis": {
-    "title": "Redis",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "python": {
     "title": "Python",
     "display": "hidden",
@@ -310,17 +301,8 @@
       "breadcrumb": false
     }
   },
-  "sql": {
-    "title": "SQL",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "shell": {
-    "title": "Shell",
+  "redis": {
+    "title": "Redis",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -337,8 +319,35 @@
       "breadcrumb": false
     }
   },
+  "shell": {
+    "title": "Shell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sql": {
+    "title": "SQL",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "computer_graphics": {
     "title": "Computer Graphics",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "linux": {
+    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -357,15 +366,6 @@
   },
   "openGL": {
     "title": "Opengl",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "linux": {
-    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {
