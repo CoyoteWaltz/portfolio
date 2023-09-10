@@ -1,0 +1,384 @@
+{
+  "reading": {
+    "title": "Reading",
+    "type": "page"
+  },
+  "learning": {
+    "title": "Learning",
+    "type": "menu",
+    "items": {
+      "Z-TODO": {
+        "title": "Z Todo",
+        "href": "/Z-TODO"
+      },
+      "about_imgs": {
+        "title": "About Imgs",
+        "href": "/about_imgs"
+      },
+      "base64_intro": {
+        "title": "Base64 Intro",
+        "href": "/base64_intro"
+      },
+      "bitwise": {
+        "title": "Bitwise",
+        "href": "/bitwise"
+      },
+      "git": {
+        "title": "Git",
+        "href": "/git"
+      },
+      "idl": {
+        "title": "Idl",
+        "href": "/idl"
+      },
+      "regex": {
+        "title": "Regex",
+        "href": "/regex"
+      },
+      "unix_philosophy": {
+        "title": "Unix Philosophy",
+        "href": "/unix_philosophy"
+      },
+      "vim_note": {
+        "title": "Vim Note",
+        "href": "/vim_note"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchain/blockstack"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cmake_intro"
+      },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithm/Tree and forest"
+      },
+      "design": {
+        "title": "Design",
+        "href": "/design/learn_figma"
+      },
+      "docker": {
+        "title": "Docker",
+        "href": "/docker/docker_run_connect"
+      },
+      "functional_programming": {
+        "title": "Functional Programming",
+        "href": "/functional_programming/monad"
+      },
+      "golang": {
+        "title": "Golang",
+        "href": "/golang/go_stuff"
+      },
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskell/README"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markup/learn_markdown"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/Mahalanobias_distance"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/python/env_config"
+      },
+      "redis": {
+        "title": "Redis",
+        "href": "/redis/intro"
+      },
+      "rust": {
+        "title": "Rust",
+        "href": "/rust/begin"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
+      },
+      "sql": {
+        "title": "SQL",
+        "href": "/sql/learn_sql"
+      },
+      "computer_graphics": {
+        "title": "Computer Graphics",
+        "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
+      },
+      "openGL": {
+        "title": "Opengl",
+        "href": "/openGL/glsl/glsl_intro"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux/linux_c_archived"
+      },
+      "front_end_notes": {
+        "title": "Front End Notes",
+        "href": "/front_end_notes/browser/cache_control"
+      }
+    }
+  },
+  "Z-TODO": {
+    "title": "Z Todo",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "about_imgs": {
+    "title": "About Imgs",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "base64_intro": {
+    "title": "Base64 Intro",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "bitwise": {
+    "title": "Bitwise",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "git": {
+    "title": "Git",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "idl": {
+    "title": "Idl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "regex": {
+    "title": "Regex",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "unix_philosophy": {
+    "title": "Unix Philosophy",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "vim_note": {
+    "title": "Vim Note",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "blockchain": {
+    "title": "Blockchain",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "cpp": {
+    "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "design": {
+    "title": "Design",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "docker": {
+    "title": "Docker",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "functional_programming": {
+    "title": "Functional Programming",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "golang": {
+    "title": "Golang",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "haskell": {
+    "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "markup": {
+    "title": "Markup",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "ml": {
+    "title": "Ml",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "python": {
+    "title": "Python",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "redis": {
+    "title": "Redis",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "rust": {
+    "title": "Rust",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sql": {
+    "title": "SQL",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "computer_graphics": {
+    "title": "Computer Graphics",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "openGL": {
+    "title": "Opengl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "linux": {
+    "title": "Linux",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "front_end_notes": {
+    "title": "Front End Notes",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "index": {
+    "type": "page",
+    "title": "Coyote's Portfolio",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  }
+}
