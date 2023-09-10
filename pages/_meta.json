@@ -75,13 +75,13 @@
         "title": "Haskell",
         "href": "/haskell/README"
       },
-      "markup": {
-        "title": "Markup",
-        "href": "/markup/learn_markdown"
-      },
       "ml": {
         "title": "Ml",
         "href": "/ml/Mahalanobias_distance"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markup/learn_markdown"
       },
       "python": {
         "title": "Python",
@@ -274,8 +274,8 @@
       "breadcrumb": false
     }
   },
-  "markup": {
-    "title": "Markup",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -283,8 +283,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "markup": {
+    "title": "Markup",
     "display": "hidden",
     "type": "page",
     "theme": {
