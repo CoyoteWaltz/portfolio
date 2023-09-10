@@ -3,6 +3,6 @@ node_modules
 
 bin
 
-temp/**/*
+temp
 .DS_Store
 .vercel

@@ -12,7 +12,7 @@ jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
@@ -33,6 +33,13 @@ jobs:
           ls ${{ github.workspace }}
       - name: Build Content Layout
         run: pnpm run build:layout
+      - name: Build Content Layout
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "ci: sync markdown after run layout"
+          git push
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build Project Artifacts
