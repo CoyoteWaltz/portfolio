@@ -43,6 +43,10 @@
         "title": "Vim Note",
         "href": "/vim_note"
       },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithm/Tree and forest"
+      },
       "blockchain": {
         "title": "Blockchain",
         "href": "/blockchain/blockstack"
@@ -50,10 +54,6 @@
       "cpp": {
         "title": "Cpp",
         "href": "/cpp/cmake_intro"
-      },
-      "data_structure_&_algorithm": {
-        "title": "Data Structure & Algorithm",
-        "href": "/data_structure_&_algorithm/Tree and forest"
       },
       "design": {
         "title": "Design",
@@ -83,25 +83,25 @@
         "title": "Ml",
         "href": "/ml/Mahalanobias_distance"
       },
-      "python": {
-        "title": "Python",
-        "href": "/python/env_config"
-      },
       "redis": {
         "title": "Redis",
         "href": "/redis/intro"
       },
-      "rust": {
-        "title": "Rust",
-        "href": "/rust/begin"
+      "python": {
+        "title": "Python",
+        "href": "/python/env_config"
+      },
+      "sql": {
+        "title": "SQL",
+        "href": "/sql/learn_sql"
       },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "sql": {
-        "title": "SQL",
-        "href": "/sql/learn_sql"
+      "rust": {
+        "title": "Rust",
+        "href": "/rust/begin"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -202,6 +202,15 @@
       "breadcrumb": false
     }
   },
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "blockchain": {
     "title": "Blockchain",
     "display": "hidden",
@@ -213,15 +222,6 @@
   },
   "cpp": {
     "title": "Cpp",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -292,15 +292,6 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "redis": {
     "title": "Redis",
     "display": "hidden",
@@ -310,8 +301,17 @@
       "breadcrumb": false
     }
   },
-  "rust": {
-    "title": "Rust",
+  "python": {
+    "title": "Python",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sql": {
+    "title": "SQL",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -328,8 +328,8 @@
       "breadcrumb": false
     }
   },
-  "sql": {
-    "title": "SQL",
+  "rust": {
+    "title": "Rust",
     "display": "hidden",
     "type": "page",
     "theme": {

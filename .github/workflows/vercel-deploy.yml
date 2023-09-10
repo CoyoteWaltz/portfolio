@@ -41,7 +41,7 @@ jobs:
           git config user.name vercel-deploy-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "ci: sync markdown after run layout" --no-verify
+          git commit -m "ci: sync markdown after run layout [skip actions]" --no-verify
           git push
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}

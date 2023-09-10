@@ -56,11 +56,15 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
-  // gitTimestamp: ({ timestamp }) => (
-  //   <div>
-  //     <>time: {timestamp.toDateString()}</>
-  //   </div>
-  // ),
+  gitTimestamp: ({ timestamp }) => {
+    const timeStr = timestamp.toLocaleDateString()
+
+    return (
+      <div>
+        <>Last edited on: {timeStr}</>
+      </div>
+    )
+  },
 }
 
 export default config
