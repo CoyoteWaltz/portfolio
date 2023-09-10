@@ -2,7 +2,8 @@ import React from 'react'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
 import pkgJSON from './package.json'
 
-const githubURL = `https${pkgJSON.repository.url.split('https')[1]}`
+const GithubURL = `https${pkgJSON.repository.url.split('https')[1]}`
+const MarkdownGithubURL = 'https://github.com/CoyoteWaltz/MarkdownNotes'
 
 const config: DocsThemeConfig = {
   logo: (
@@ -12,7 +13,7 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: 'https://github.com/CoyoteWaltz/MarkdownNotes',
+    link: MarkdownGithubURL,
     // icon: (
     //   <svg width='24' height='24' viewBox='0 0 256 256'>
     //     <path
@@ -28,7 +29,7 @@ const config: DocsThemeConfig = {
   },
   // darkMode: true,
   // project: {
-  //   link: githubURL,
+  //   link: GithubURL,
   // },
   chat: {
     // link: 'https://twitter.com/',
@@ -41,7 +42,10 @@ const config: DocsThemeConfig = {
     //   </svg>
     // ),
   },
-  docsRepositoryBase: githubURL,
+  editLink: {
+    component: null,
+  },
+  docsRepositoryBase: MarkdownGithubURL,
   footer: {
     text: (
       <span>

@@ -39,7 +39,7 @@ jobs:
       - name: Push Commit For New Pages
         run: |
           git config user.name vercel-deploy-actions
-          git config user.email github-actions@github.com
+          git config user.email coyote_waltz@163.com
           git add .
           git commit -m "ci: sync markdown after run layout [skip actions]" --no-verify
           git push
