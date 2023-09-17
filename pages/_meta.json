@@ -47,13 +47,13 @@
         "title": "Blockchain",
         "href": "/blockchain/blockstack"
       },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cmake_intro"
-      },
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
         "href": "/data_structure_&_algorithm/Tree and forest"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cmake_intro"
       },
       "design": {
         "title": "Design",
@@ -63,21 +63,21 @@
         "title": "Docker",
         "href": "/docker/docker_run_connect"
       },
-      "functional_programming": {
-        "title": "Functional Programming",
-        "href": "/functional_programming/monad"
-      },
       "golang": {
         "title": "Golang",
         "href": "/golang/go_stuff"
       },
-      "haskell": {
-        "title": "Haskell",
-        "href": "/haskell/README"
+      "functional_programming": {
+        "title": "Functional Programming",
+        "href": "/functional_programming/monad"
       },
       "markup": {
         "title": "Markup",
         "href": "/markup/learn_markdown"
+      },
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskell/README"
       },
       "ml": {
         "title": "Ml",
@@ -91,6 +91,10 @@
         "title": "Redis",
         "href": "/redis/intro"
       },
+      "sql": {
+        "title": "SQL",
+        "href": "/sql/learn_sql"
+      },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
@@ -99,21 +103,17 @@
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "sql": {
-        "title": "SQL",
-        "href": "/sql/learn_sql"
-      },
       "computer_graphics": {
         "title": "Computer Graphics",
         "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
       },
-      "linux": {
-        "title": "Linux",
-        "href": "/linux/linux_c_archived"
-      },
       "front_end_notes": {
         "title": "Front End Notes",
         "href": "/front_end_notes/browser/cache_control"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux/linux_c_archived"
       },
       "openGL": {
         "title": "Opengl",
@@ -211,8 +211,8 @@
       "breadcrumb": false
     }
   },
-  "cpp": {
-    "title": "Cpp",
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -220,8 +220,8 @@
       "breadcrumb": false
     }
   },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
+  "cpp": {
+    "title": "Cpp",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -247,15 +247,6 @@
       "breadcrumb": false
     }
   },
-  "functional_programming": {
-    "title": "Functional Programming",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "golang": {
     "title": "Golang",
     "display": "hidden",
@@ -265,8 +256,8 @@
       "breadcrumb": false
     }
   },
-  "haskell": {
-    "title": "Haskell",
+  "functional_programming": {
+    "title": "Functional Programming",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -276,6 +267,15 @@
   },
   "markup": {
     "title": "Markup",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "haskell": {
+    "title": "Haskell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -310,6 +310,15 @@
       "breadcrumb": false
     }
   },
+  "sql": {
+    "title": "SQL",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "rust": {
     "title": "Rust",
     "display": "hidden",
@@ -328,15 +337,6 @@
       "breadcrumb": false
     }
   },
-  "sql": {
-    "title": "SQL",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "computer_graphics": {
     "title": "Computer Graphics",
     "display": "hidden",
@@ -346,8 +346,8 @@
       "breadcrumb": false
     }
   },
-  "linux": {
-    "title": "Linux",
+  "front_end_notes": {
+    "title": "Front End Notes",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -355,8 +355,8 @@
       "breadcrumb": false
     }
   },
-  "front_end_notes": {
-    "title": "Front End Notes",
+  "linux": {
+    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {

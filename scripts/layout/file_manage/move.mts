@@ -40,7 +40,10 @@ export function getFileMoveRecord(): MovingRecord {
 
 export async function moveSingleFile(src: string, dest: string, options?: Parameters<typeof fs.move>[2]) {
   try {
-    await fs.move(src, dest, options)
+    await fs.move(src, dest, {
+      ...options,
+      overwrite: true,
+    })
     successLog('Moving file::Success', src, 'to', dest)
   }
   catch (error) {

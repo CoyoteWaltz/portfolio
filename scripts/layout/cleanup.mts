@@ -8,8 +8,7 @@ export async function cleanup() {
   await awaitPromiseArr([
     fs.remove(TEMP_REPO_PATH),
     fs.remove(TARGET_PAGE_PATH),
-    fs.remove('./pages'),
   ])
-  await fs.ensureDir('./pages')
+  await fs.ensureDir(TARGET_PAGE_PATH)
   successLog('Cleaning up Done')
 }

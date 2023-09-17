@@ -1,22 +1,21 @@
-# Nextra Docs Template 
+# Coyote's Portfolio
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+View [The site](https://portolio-livid.vercel.app)
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+*Notice there is typo on the name of this repo `portolio` XD...*
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+This project is my notes site generator powered by [Nextra](https://nextra.site).
 
-## Quick Start
+## How it works
 
-Click the button to clone this repository and deploy it on Vercel:
+The doc site is generated on the internet through steps:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+1. Start the build pipeline(github workflows) trigger by the [Doc Repo](https://github.com/CoyoteWaltz/MarkdownNotes)'s event
+2. Run layout scripts to build the content(`pages/`, `_meta.json`, ...)
+3. Push commits for those changes
+4. Build and Deploy to Vercel
+5. View the website!
 
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
 ## License
 
