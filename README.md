@@ -1,8 +1,10 @@
 # Coyote's Portfolio
 
-View [The site](https://portolio-livid.vercel.app)
+***Still Working On It***
 
-*Notice there is typo on the name of this repo `portolio` XD...*
+View [The site](https://portolio-livid.vercel.app)!
+
+*Notice there is typo on the name of the site `portolio` XD...*
 
 This project is my notes site generator powered by [Nextra](https://nextra.site).
 
