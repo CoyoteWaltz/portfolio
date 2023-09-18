@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoyoteWaltz/portolio"
+    "url": "git+https://github.com/CoyoteWaltz/portfolio"
   },
   "scripts": {
     "lint": "eslint .",
