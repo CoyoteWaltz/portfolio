@@ -107,13 +107,13 @@
         "title": "Computer Graphics",
         "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
       },
-      "linux": {
-        "title": "Linux",
-        "href": "/linux/linux_c_archived"
-      },
       "front_end_notes": {
         "title": "Front End Notes",
         "href": "/front_end_notes/browser/cache_control"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux/linux_c_archived"
       },
       "openGL": {
         "title": "Opengl",
@@ -346,8 +346,8 @@
       "breadcrumb": false
     }
   },
-  "linux": {
-    "title": "Linux",
+  "front_end_notes": {
+    "title": "Front End Notes",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -355,8 +355,8 @@
       "breadcrumb": false
     }
   },
-  "front_end_notes": {
-    "title": "Front End Notes",
+  "linux": {
+    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {
