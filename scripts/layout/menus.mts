@@ -32,5 +32,3 @@ export const MENU_CONFIG = {
     metaKey: 'reading',
   },
 } satisfies Readonly<MenuConfig>
-
-// const s = MENU_CONFIG['02learning_notes'].menu.title
