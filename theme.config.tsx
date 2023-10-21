@@ -1,6 +1,7 @@
 import React from 'react'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
 import pkgJSON from './package.json'
+import { Logo } from './components/logo'
 
 const GithubURL = `https${pkgJSON.repository.url.split('https')[1]}`
 const MarkdownGithubURL = 'https://github.com/CoyoteWaltz/MarkdownNotes'
@@ -8,12 +9,12 @@ const MarkdownGithubURL = 'https://github.com/CoyoteWaltz/MarkdownNotes'
 const config: DocsThemeConfig = {
   logo: (
     <>
-      {/* <span>:logo:</span> */}
-      <span>Coyote's Portfolio</span>
+      <div className='flex w-4 h-4 mr-1'><Logo /></div>
+      <span className='text-sm'>Coyote's Portfolio</span>
     </>
   ),
   project: {
-    link: MarkdownGithubURL,
+    link: GithubURL,
     // icon: (
     //   <svg width='24' height='24' viewBox='0 0 256 256'>
     //     <path
@@ -45,7 +46,7 @@ const config: DocsThemeConfig = {
   editLink: {
     component: () => null,
   },
-  docsRepositoryBase: MarkdownGithubURL,
+  docsRepositoryBase: GithubURL,
   footer: {
     text: (
       <span>

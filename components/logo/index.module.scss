@@ -1,0 +1,52 @@
+// @media (prefers-reduced-motion) {
+//     path {
+//         animation: none !important;
+//         stroke-dasharray: unset !important;
+//     }
+// }
+
+@keyframes grow {
+    0% {
+        stroke-dashoffset: 1px;
+        stroke-dasharray: 0 200px;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    to {
+        stroke-dasharray: 200px 0;
+    }
+
+    // // /* Moving back */
+    // 65% {
+    //     stroke-dasharray: 200px 0;
+    // }
+
+    // 95%,
+    // to {
+    //     stroke-dasharray: 0 200px;
+    // }
+}
+
+
+
+.coyote-logo {
+    width: 100%;
+    height: 100%;
+
+    path {
+        stroke-dashoffset: 1px;
+        transform-origin: center;
+    }
+
+    &--init,
+    &:hover {
+        path {
+            stroke-dasharray: 0 200px;
+            animation: grow 1.5s ease-in forwards;
+        }
+    }
+}
