@@ -103,21 +103,21 @@
         "title": "SQL",
         "href": "/sql/learn_sql"
       },
-      "front_end_notes": {
-        "title": "Front End Notes",
-        "href": "/front_end_notes/browser/cache_control"
-      },
       "computer_graphics": {
         "title": "Computer Graphics",
         "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
       },
-      "linux": {
-        "title": "Linux",
-        "href": "/linux/linux_c_archived"
+      "front_end_notes": {
+        "title": "Front End Notes",
+        "href": "/front_end_notes/browser/cache_control"
       },
       "openGL": {
         "title": "Opengl",
         "href": "/openGL/glsl/glsl_intro"
+      },
+      "linux": {
+        "title": "Linux",
+        "href": "/linux/linux_c_archived"
       }
     }
   },
@@ -337,15 +337,6 @@
       "breadcrumb": false
     }
   },
-  "front_end_notes": {
-    "title": "Front End Notes",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "computer_graphics": {
     "title": "Computer Graphics",
     "display": "hidden",
@@ -355,8 +346,8 @@
       "breadcrumb": false
     }
   },
-  "linux": {
-    "title": "Linux",
+  "front_end_notes": {
+    "title": "Front End Notes",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -366,6 +357,15 @@
   },
   "openGL": {
     "title": "Opengl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "linux": {
+    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {
