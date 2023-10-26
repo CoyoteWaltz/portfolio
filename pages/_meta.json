@@ -23,14 +23,6 @@
         "title": "Bitwise",
         "href": "/bitwise"
       },
-      "git": {
-        "title": "Git",
-        "href": "/git"
-      },
-      "idl": {
-        "title": "Idl",
-        "href": "/idl"
-      },
       "regex": {
         "title": "Regex",
         "href": "/regex"
@@ -42,6 +34,10 @@
       "vim_note": {
         "title": "Vim Note",
         "href": "/vim_note"
+      },
+      "IDL": {
+        "title": "Idl",
+        "href": "/IDL/intro"
       },
       "blockchain": {
         "title": "Blockchain",
@@ -66,6 +62,10 @@
       "functional_programming": {
         "title": "Functional Programming",
         "href": "/functional_programming/monad"
+      },
+      "git": {
+        "title": "Git",
+        "href": "/git/intro"
       },
       "golang": {
         "title": "Golang",
@@ -157,24 +157,6 @@
       "breadcrumb": false
     }
   },
-  "git": {
-    "title": "Git",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "idl": {
-    "title": "Idl",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "regex": {
     "title": "Regex",
     "display": "hidden",
@@ -195,6 +177,15 @@
   },
   "vim_note": {
     "title": "Vim Note",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "IDL": {
+    "title": "Idl",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -249,6 +240,15 @@
   },
   "functional_programming": {
     "title": "Functional Programming",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "git": {
+    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
