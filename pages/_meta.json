@@ -103,13 +103,13 @@
         "title": "SQL",
         "href": "/sql/learn_sql"
       },
-      "computer_graphics": {
-        "title": "Computer Graphics",
-        "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
-      },
       "front_end_notes": {
         "title": "Front End Notes",
         "href": "/front_end_notes/browser/cache_control"
+      },
+      "computer_graphics": {
+        "title": "Computer Graphics",
+        "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
       },
       "openGL": {
         "title": "Opengl",
@@ -337,8 +337,8 @@
       "breadcrumb": false
     }
   },
-  "computer_graphics": {
-    "title": "Computer Graphics",
+  "front_end_notes": {
+    "title": "Front End Notes",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -346,8 +346,8 @@
       "breadcrumb": false
     }
   },
-  "front_end_notes": {
-    "title": "Front End Notes",
+  "computer_graphics": {
+    "title": "Computer Graphics",
     "display": "hidden",
     "type": "page",
     "theme": {
