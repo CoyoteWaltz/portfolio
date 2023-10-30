@@ -21,6 +21,9 @@ The doc site is generated to the internet through steps below:
 ## Feature List
 
 - [x] Design and Add my personal logo(animated).
+- [ ] Homepage design
+    - [ ] Dark mode with logo.
+    - [ ] 
 - [ ] Display latest modified/published doc list on the home page.
 - [ ] More rich components with TailwindCSS.
 - [ ] Publish more content from the Markdown repo.

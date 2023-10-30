@@ -5,14 +5,17 @@ import s from './index.module.scss'
 
 export interface LogoProps {
   wrapperStyle?: React.CSSProperties
+  disableHoverAnimation?: boolean
 }
 
 export const Logo: FC<LogoProps> = (props) => {
+  const { wrapperStyle, disableHoverAnimation } = props
   const [initAnimated, setInitAnimated] = useState(true)
   return (
-    <div className="w-full h-full" style={props.wrapperStyle}>
+    <div className="w-full h-full" style={wrapperStyle}>
       <svg className={cls(s['coyote-logo'], {
         [s['coyote-logo--init']]: initAnimated,
+        [s['coyote-logo--enable-hover']]: !disableHoverAnimation,
       })} width="80" height="79" viewBox="0 0 80 79" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           onAnimationEnd={() => {

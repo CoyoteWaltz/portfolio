@@ -43,10 +43,10 @@
     }
 
     &--init,
-    &:hover {
+    &--enable-hover:hover {
         path {
             stroke-dasharray: 0 200px;
-            animation: grow 1.5s ease-in forwards;
+            animation: grow 1.8s ease-in forwards;
         }
     }
 }
