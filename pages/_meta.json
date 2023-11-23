@@ -35,89 +35,89 @@
         "title": "Vim Note",
         "href": "/vim_note"
       },
-      "IDL": {
-        "title": "Idl",
-        "href": "/IDL/intro"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "href": "/blockchain/blockstack"
-      },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cmake_intro"
-      },
-      "data_structure_&_algorithm": {
-        "title": "Data Structure & Algorithm",
-        "href": "/data_structure_&_algorithm/Tree and forest"
-      },
-      "design": {
-        "title": "Design",
-        "href": "/design/learn_figma"
+      "functional_programming": {
+        "title": "Functional Programming",
+        "href": "/functional_programmingtemp/02learning_notes/functional_programming/monad"
       },
       "docker": {
         "title": "Docker",
-        "href": "/docker/docker_run_connect"
+        "href": "/dockertemp/02learning_notes/docker/docker_run_connect"
       },
-      "functional_programming": {
-        "title": "Functional Programming",
-        "href": "/functional_programming/monad"
+      "design": {
+        "title": "Design",
+        "href": "/designtemp/02learning_notes/design/learn_figma"
       },
-      "git": {
-        "title": "Git",
-        "href": "/git/intro"
-      },
-      "golang": {
-        "title": "Golang",
-        "href": "/golang/go_stuff"
-      },
-      "haskell": {
-        "title": "Haskell",
-        "href": "/haskell/README"
-      },
-      "markup": {
-        "title": "Markup",
-        "href": "/markup/learn_markdown"
-      },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/Mahalanobias_distance"
-      },
-      "python": {
-        "title": "Python",
-        "href": "/python/env_config"
-      },
-      "redis": {
-        "title": "Redis",
-        "href": "/redis/intro"
-      },
-      "rust": {
-        "title": "Rust",
-        "href": "/rust/begin"
-      },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
+      "IDL": {
+        "title": "Idl",
+        "href": "/IDLtemp/02learning_notes/IDL/intro"
       },
       "sql": {
         "title": "SQL",
-        "href": "/sql/learn_sql"
+        "href": "/sqltemp/02learning_notes/sql/learn_sql"
       },
-      "computer_graphics": {
-        "title": "Computer Graphics",
-        "href": "/computer_graphics/computer_graphics_from_scratch/reading_note"
+      "redis": {
+        "title": "Redis",
+        "href": "/redistemp/02learning_notes/redis/intro"
       },
-      "front_end_notes": {
-        "title": "Front End Notes",
-        "href": "/front_end_notes/browser/apis"
+      "git": {
+        "title": "Git",
+        "href": "/gittemp/02learning_notes/git/intro"
+      },
+      "golang": {
+        "title": "Golang",
+        "href": "/golangtemp/02learning_notes/golang/go_stuff"
+      },
+      "rust": {
+        "title": "Rust",
+        "href": "/rusttemp/02learning_notes/rust/begin"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpptemp/02learning_notes/cpp/cmake_intro"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shelltemp/02learning_notes/shell/commands"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markuptemp/02learning_notes/markup/learn_markdown"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/mltemp/02learning_notes/ml/Mahalanobias_distance"
+      },
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskelltemp/02learning_notes/haskell/README"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchaintemp/02learning_notes/blockchain/blockstack"
       },
       "openGL": {
         "title": "Opengl",
-        "href": "/openGL/glsl/glsl_intro"
+        "href": "/openGLtemp/02learning_notes/openGL/glsl/glsl_intro"
+      },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithmtemp/02learning_notes/data_structure_&_algorithm/Tree and forest"
       },
       "linux": {
         "title": "Linux",
-        "href": "/linux/linux_c_archived"
+        "href": "/linuxtemp/02learning_notes/linux/linux_c_archived"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/pythontemp/02learning_notes/python/env_config"
+      },
+      "computer_graphics": {
+        "title": "Computer Graphics",
+        "href": "/computer_graphicstemp/02learning_notes/computer_graphics/computer_graphics_from_scratch/reading_note"
+      },
+      "front_end_notes": {
+        "title": "Front End Notes",
+        "href": "/front_end_notestemp/02learning_notes/front_end_notes/browser/apis"
       }
     }
   },
@@ -184,44 +184,8 @@
       "breadcrumb": false
     }
   },
-  "IDL": {
-    "title": "Idl",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "blockchain": {
-    "title": "Blockchain",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "cpp": {
-    "title": "Cpp",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "design": {
-    "title": "Design",
+  "functional_programming": {
+    "title": "Functional Programming",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -238,8 +202,35 @@
       "breadcrumb": false
     }
   },
-  "functional_programming": {
-    "title": "Functional Programming",
+  "design": {
+    "title": "Design",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "IDL": {
+    "title": "Idl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sql": {
+    "title": "SQL",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "redis": {
+    "title": "Redis",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -265,8 +256,26 @@
       "breadcrumb": false
     }
   },
-  "haskell": {
-    "title": "Haskell",
+  "rust": {
+    "title": "Rust",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "cpp": {
+    "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -292,44 +301,53 @@
       "breadcrumb": false
     }
   },
+  "haskell": {
+    "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "blockchain": {
+    "title": "Blockchain",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "openGL": {
+    "title": "Opengl",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "linux": {
+    "title": "Linux",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "python": {
     "title": "Python",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "redis": {
-    "title": "Redis",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "rust": {
-    "title": "Rust",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "shell": {
-    "title": "Shell",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "sql": {
-    "title": "SQL",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -348,24 +366,6 @@
   },
   "front_end_notes": {
     "title": "Front End Notes",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "openGL": {
-    "title": "Opengl",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "linux": {
-    "title": "Linux",
     "display": "hidden",
     "type": "page",
     "theme": {
