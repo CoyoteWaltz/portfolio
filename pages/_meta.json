@@ -35,6 +35,10 @@
         "title": "Vim Note",
         "href": "/vim_note"
       },
+      "redis": {
+        "title": "Redis",
+        "href": "/redis/intro"
+      },
       "git": {
         "title": "Git",
         "href": "/git/intro"
@@ -59,45 +63,41 @@
         "title": "SQL",
         "href": "/sql/learn_sql"
       },
-      "redis": {
-        "title": "Redis",
-        "href": "/redis/intro"
-      },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
       },
       "golang": {
         "title": "Golang",
-        "href": "/golang/learn_golang"
-      },
-      "haskell": {
-        "title": "Haskell",
-        "href": "/haskell/haskell-intro"
+        "href": "/golang/go_stuff"
       },
       "cpp": {
         "title": "Cpp",
-        "href": "/cpp/cpp_on_the_fly"
+        "href": "/cpp/cmake_intro"
       },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
-      },
       "markup": {
         "title": "Markup",
-        "href": "/markup/toml"
+        "href": "/markup/learn_markdown"
       },
-      "openGL": {
-        "title": "Opengl",
-        "href": "/openGL/learnopengl"
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/Mahalanobias_distance"
       },
       "blockchain": {
         "title": "Blockchain",
-        "href": "/blockchain/what_is_bitcoin_and_blockchain"
+        "href": "/blockchain/blockstack"
+      },
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskell/README"
+      },
+      "openGL": {
+        "title": "Opengl",
+        "href": "/openGL/glsl/glsl_intro"
       },
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
@@ -105,11 +105,11 @@
       },
       "linux": {
         "title": "Linux",
-        "href": "/linux/linux_ubuntu_config_archived"
+        "href": "/linux/linux_c_archived"
       },
       "python": {
         "title": "Python",
-        "href": "/python/learn_flask"
+        "href": "/python/env_config"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -117,7 +117,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/frameworks/react/react-intro"
+        "href": "/front_end_notes/browser/apis"
       }
     }
   },
@@ -184,6 +184,15 @@
       "breadcrumb": false
     }
   },
+  "redis": {
+    "title": "Redis",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "git": {
     "title": "Git",
     "display": "hidden",
@@ -238,15 +247,6 @@
       "breadcrumb": false
     }
   },
-  "redis": {
-    "title": "Redis",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "rust": {
     "title": "Rust",
     "display": "hidden",
@@ -258,15 +258,6 @@
   },
   "golang": {
     "title": "Golang",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "haskell": {
-    "title": "Haskell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -292,15 +283,6 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "markup": {
     "title": "Markup",
     "display": "hidden",
@@ -310,8 +292,8 @@
       "breadcrumb": false
     }
   },
-  "openGL": {
-    "title": "Opengl",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -321,6 +303,24 @@
   },
   "blockchain": {
     "title": "Blockchain",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "haskell": {
+    "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "openGL": {
+    "title": "Opengl",
     "display": "hidden",
     "type": "page",
     "theme": {
