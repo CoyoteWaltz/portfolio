@@ -35,10 +35,6 @@
         "title": "Vim Note",
         "href": "/vim_note"
       },
-      "redis": {
-        "title": "Redis",
-        "href": "/redis/intro"
-      },
       "git": {
         "title": "Git",
         "href": "/git/intro"
@@ -63,41 +59,45 @@
         "title": "SQL",
         "href": "/sql/learn_sql"
       },
+      "redis": {
+        "title": "Redis",
+        "href": "/redis/intro"
+      },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
       },
       "golang": {
         "title": "Golang",
-        "href": "/golang/go_stuff"
+        "href": "/golang/learn_golang"
       },
       "cpp": {
         "title": "Cpp",
-        "href": "/cpp/cmake_intro"
+        "href": "/cpp/cpp_on_the_fly"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markup/toml"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "markup": {
-        "title": "Markup",
-        "href": "/markup/learn_markdown"
-      },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/Mahalanobias_distance"
+      "haskell": {
+        "title": "Haskell",
+        "href": "/haskell/haskell-intro"
       },
       "blockchain": {
         "title": "Blockchain",
-        "href": "/blockchain/blockstack"
-      },
-      "haskell": {
-        "title": "Haskell",
-        "href": "/haskell/README"
+        "href": "/blockchain/what_is_bitcoin_and_blockchain"
       },
       "openGL": {
         "title": "Opengl",
-        "href": "/openGL/glsl/glsl_intro"
+        "href": "/openGL/learnopengl"
       },
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
@@ -105,11 +105,11 @@
       },
       "linux": {
         "title": "Linux",
-        "href": "/linux/linux_c_archived"
+        "href": "/linux/linux_ubuntu_config_archived"
       },
       "python": {
         "title": "Python",
-        "href": "/python/env_config"
+        "href": "/python/learn_flask"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -117,7 +117,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/browser/apis"
+        "href": "/front_end_notes/frameworks/react/react-intro"
       }
     }
   },
@@ -184,15 +184,6 @@
       "breadcrumb": false
     }
   },
-  "redis": {
-    "title": "Redis",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "git": {
     "title": "Git",
     "display": "hidden",
@@ -247,6 +238,15 @@
       "breadcrumb": false
     }
   },
+  "redis": {
+    "title": "Redis",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "rust": {
     "title": "Rust",
     "display": "hidden",
@@ -274,15 +274,6 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "markup": {
     "title": "Markup",
     "display": "hidden",
@@ -301,8 +292,8 @@
       "breadcrumb": false
     }
   },
-  "blockchain": {
-    "title": "Blockchain",
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -312,6 +303,15 @@
   },
   "haskell": {
     "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "blockchain": {
+    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
