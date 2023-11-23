@@ -26,9 +26,12 @@ jobs:
       - name: Install Deps
         run: pnpm install
       - name: Check out Markdown repo
+        # https://github.com/actions/checkout
         uses: actions/checkout@master
         with:
           repository: CoyoteWaltz/MarkdownNotes
+          ref: "master"
+          fetch-depth: 0 # all history
           token: ${{ secrets.PAT_TOKEN }}
           path: "./temp"
       - name: List Files
