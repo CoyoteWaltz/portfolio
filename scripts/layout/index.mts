@@ -28,11 +28,11 @@ await awaitPromiseArr([
     // write meta.json
     return writeFinalJSON(finalMetaJSON)
   }),
-  modifyFiles().then(() => {
-    const record = getFileMoveRecord()
-    return moveFiles(record)
-  }),
+  modifyFiles(),
 ])
+
+// move after every action which needs file path info
+await moveFiles(getFileMoveRecord())
 
 await moveSiteDocs()
 

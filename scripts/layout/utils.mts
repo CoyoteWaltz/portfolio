@@ -1,6 +1,7 @@
 import title from 'title'
 import { $, fs, path } from 'zx'
 import { TEMP_REPO_PATH } from './constants.mjs'
+import { warnLog } from './logger.mjs'
 
 export function pageTitleFromFilename(fileName: string) {
   return title(fileName.replace(/[-_]/g, ' '))
@@ -28,11 +29,15 @@ export async function getLatestGitCommitTimeStamp(filepath: string, parentDir?: 
   const relativeParentDir = path.resolve('.', parentDir)
   const changeDir = parentDir ? `${relativeParentDir}` : '.'
   const targetFilePath = parentDir ? `${path.join(relativeParentDir, '..', filepath)}` : filepath
-  const res = await $`cd ${changeDir} && git log -1 --format=%ct ${targetFilePath}` // may not need xargs
-  if (res.stderr)
+  try {
+    const res = await $`cd "${changeDir}" && git log -1 --format=%ct "${targetFilePath}"` // may not need xargs
+    if (res.stderr)
+      return 0
+    return Number(res.stdout)
+  }
+  catch (error) {
     return 0
-
-  return Number(res.stdout)
+  }
 }
 
 export async function findFirstMdFile(dirName: string, options?: {
@@ -43,20 +48,25 @@ export async function findFirstMdFile(dirName: string, options?: {
   const useTraverse = !!sortBy
   const allFilePaths: string[] = []
   const find = async (pathname: string, traverse = false): Promise<string | undefined> => {
-    const inner = await fs.readdir(pathname)
-    for (const p of inner) {
-      const full = path.join(pathname, p)
-      const stat = await fs.stat(full)
-      if (stat.isFile() && await isMdFile(full)) {
-        allFilePaths.push(full)
-        if (!traverse)
-          return full
+    try {
+      const inner = await fs.readdir(pathname)
+      for (const p of inner) {
+        const full = path.join(pathname, p)
+        const stat = await fs.stat(full)
+        if (stat.isFile() && await isMdFile(full)) {
+          allFilePaths.push(full)
+          if (!traverse)
+            return full
+        }
+        else if (stat.isDirectory()) {
+          const result = await find(full, traverse)
+          if (result)
+            return result
+        }
       }
-      else if (stat.isDirectory()) {
-        const result = await find(full, traverse)
-        if (result)
-          return result
-      }
+    }
+    catch (error) {
+      warnLog(error)
     }
   }
 

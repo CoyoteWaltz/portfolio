@@ -19,3 +19,7 @@ export const errorLog = createLogger(
 export const infoLog = createLogger(
   chalk.bgGreen,
 )
+
+export const warnLog = createLogger(
+  chalk.bgYellow,
+)
