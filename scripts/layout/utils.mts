@@ -70,7 +70,7 @@ export async function findFirstMdFile(dirName: string, options?: {
     }
   }
 
-  const result = await find(dirName, useTraverse)
+  let result = await find(dirName, useTraverse)
 
   if (sortBy) {
     let topIndex = 0
@@ -88,7 +88,7 @@ export async function findFirstMdFile(dirName: string, options?: {
       }
     }
 
-    return allFilePaths[topIndex]
+    result = allFilePaths[topIndex]
   }
 
   return result?.slice(dirName.length)
