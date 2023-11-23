@@ -36,7 +36,9 @@ export async function getItems(dirPath: string): Promise<{
       // 如果是目录 寻找到第一个 md 文件作为第一个路由
       let firstMd = ''
       if (isDir) {
-        firstMd = await findFirstMdFile(subjectPath)
+        firstMd = await findFirstMdFile(subjectPath, {
+          sortBy: 'lastCommitTime',
+        })
         firstMd = trimExtension(firstMd)
       }
 
