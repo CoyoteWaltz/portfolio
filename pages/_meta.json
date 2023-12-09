@@ -11,34 +11,6 @@
         "title": "Z Todo",
         "href": "/Z-TODO"
       },
-      "about_imgs": {
-        "title": "About Imgs",
-        "href": "/about_imgs"
-      },
-      "base64_intro": {
-        "title": "Base64 Intro",
-        "href": "/base64_intro"
-      },
-      "bitwise": {
-        "title": "Bitwise",
-        "href": "/bitwise"
-      },
-      "regex": {
-        "title": "Regex",
-        "href": "/regex"
-      },
-      "unix_philosophy": {
-        "title": "Unix Philosophy",
-        "href": "/unix_philosophy"
-      },
-      "vim_note": {
-        "title": "Vim Note",
-        "href": "/vim_note"
-      },
-      "git": {
-        "title": "Git",
-        "href": "/git/intro"
-      },
       "functional_programming": {
         "title": "Functional Programming",
         "href": "/functional_programming/monad"
@@ -63,29 +35,33 @@
         "title": "Redis",
         "href": "/redis/intro"
       },
-      "rust": {
-        "title": "Rust",
-        "href": "/rust/begin"
+      "git": {
+        "title": "Git",
+        "href": "/git/intro"
       },
       "golang": {
         "title": "Golang",
         "href": "/golang/learn_golang"
       },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cpp_on_the_fly"
+      "rust": {
+        "title": "Rust",
+        "href": "/rust/begin"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
       },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
       },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cpp_on_the_fly"
+      },
       "ml": {
         "title": "Ml",
         "href": "/ml/gaussian_bayes"
-      },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
       },
       "haskell": {
         "title": "Haskell",
@@ -107,6 +83,10 @@
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
+      "sundries": {
+        "title": "Sundries",
+        "href": "/sundries/about_imgs"
+      },
       "python": {
         "title": "Python",
         "href": "/python/learn_flask"
@@ -117,75 +97,12 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/frameworks/react/react-intro"
+        "href": "/front_end_notes/css/pseudo_class"
       }
     }
   },
   "Z-TODO": {
     "title": "Z Todo",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "about_imgs": {
-    "title": "About Imgs",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "base64_intro": {
-    "title": "Base64 Intro",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "bitwise": {
-    "title": "Bitwise",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "regex": {
-    "title": "Regex",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "unix_philosophy": {
-    "title": "Unix Philosophy",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "vim_note": {
-    "title": "Vim Note",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "git": {
-    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -247,8 +164,8 @@
       "breadcrumb": false
     }
   },
-  "rust": {
-    "title": "Rust",
+  "git": {
+    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -265,8 +182,17 @@
       "breadcrumb": false
     }
   },
-  "cpp": {
-    "title": "Cpp",
+  "rust": {
+    "title": "Rust",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -283,8 +209,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "cpp": {
+    "title": "Cpp",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -292,8 +218,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -339,6 +265,15 @@
   },
   "linux": {
     "title": "Linux",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
