@@ -11,6 +11,10 @@
         "title": "Z Todo",
         "href": "/Z-TODO"
       },
+      "git": {
+        "title": "Git",
+        "href": "/git/intro"
+      },
       "functional_programming": {
         "title": "Functional Programming",
         "href": "/functional_programming/monad"
@@ -35,10 +39,6 @@
         "title": "Redis",
         "href": "/redis/intro"
       },
-      "git": {
-        "title": "Git",
-        "href": "/git/intro"
-      },
       "golang": {
         "title": "Golang",
         "href": "/golang/learn_golang"
@@ -47,10 +47,6 @@
         "title": "Rust",
         "href": "/rust/begin"
       },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
-      },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
@@ -58,6 +54,10 @@
       "cpp": {
         "title": "Cpp",
         "href": "/cpp/cpp_on_the_fly"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
       },
       "ml": {
         "title": "Ml",
@@ -97,12 +97,21 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/css/pseudo_class"
+        "href": "/front_end_notes/frameworks/react/hooks"
       }
     }
   },
   "Z-TODO": {
     "title": "Z Todo",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "git": {
+    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -164,15 +173,6 @@
       "breadcrumb": false
     }
   },
-  "git": {
-    "title": "Git",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "golang": {
     "title": "Golang",
     "display": "hidden",
@@ -191,15 +191,6 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "markup": {
     "title": "Markup",
     "display": "hidden",
@@ -211,6 +202,15 @@
   },
   "cpp": {
     "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
