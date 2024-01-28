@@ -55,13 +55,13 @@
         "title": "Cpp",
         "href": "/cpp/cpp_on_the_fly"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
-      },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "haskell": {
         "title": "Haskell",
@@ -85,7 +85,7 @@
       },
       "sundries": {
         "title": "Sundries",
-        "href": "/sundries/about_imgs"
+        "href": "/sundries/unicode"
       },
       "python": {
         "title": "Python",
@@ -97,7 +97,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/tools/building/webpack/webpack_mannual"
+        "href": "/front_end_notes/ts/about_ts_config"
       }
     }
   },
@@ -209,8 +209,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -218,8 +218,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
