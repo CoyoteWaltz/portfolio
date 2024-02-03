@@ -11,10 +11,6 @@
         "title": "Z Todo",
         "href": "/Z-TODO"
       },
-      "git": {
-        "title": "Git",
-        "href": "/git/intro"
-      },
       "functional_programming": {
         "title": "Functional Programming",
         "href": "/functional_programming/monad"
@@ -39,25 +35,29 @@
         "title": "Redis",
         "href": "/redis/intro"
       },
-      "golang": {
-        "title": "Golang",
-        "href": "/golang/learn_golang"
+      "git": {
+        "title": "Git",
+        "href": "/git/huge_repo"
       },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
       },
+      "golang": {
+        "title": "Golang",
+        "href": "/golang/learn_golang"
+      },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
       },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cpp_on_the_fly"
-      },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cpp_on_the_fly"
       },
       "ml": {
         "title": "Ml",
@@ -71,13 +71,13 @@
         "title": "Blockchain",
         "href": "/blockchain/what_is_bitcoin_and_blockchain"
       },
-      "data_structure_&_algorithm": {
-        "title": "Data Structure & Algorithm",
-        "href": "/data_structure_&_algorithm/Tree and forest"
-      },
       "openGL": {
         "title": "Opengl",
         "href": "/openGL/learnopengl"
+      },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithm/Tree and forest"
       },
       "linux": {
         "title": "Linux",
@@ -103,15 +103,6 @@
   },
   "Z-TODO": {
     "title": "Z Todo",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "git": {
-    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -173,8 +164,8 @@
       "breadcrumb": false
     }
   },
-  "golang": {
-    "title": "Golang",
+  "git": {
+    "title": "Git",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -191,6 +182,15 @@
       "breadcrumb": false
     }
   },
+  "golang": {
+    "title": "Golang",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "markup": {
     "title": "Markup",
     "display": "hidden",
@@ -200,8 +200,8 @@
       "breadcrumb": false
     }
   },
-  "cpp": {
-    "title": "Cpp",
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -209,8 +209,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "cpp": {
+    "title": "Cpp",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -245,8 +245,8 @@
       "breadcrumb": false
     }
   },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
+  "openGL": {
+    "title": "Opengl",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -254,8 +254,8 @@
       "breadcrumb": false
     }
   },
-  "openGL": {
-    "title": "Opengl",
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
