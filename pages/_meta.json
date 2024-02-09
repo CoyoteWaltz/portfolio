@@ -47,17 +47,17 @@
         "title": "Golang",
         "href": "/golang/learn_golang"
       },
-      "markup": {
-        "title": "Markup",
-        "href": "/markup/toml"
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cpp_on_the_fly"
       },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cpp_on_the_fly"
+      "markup": {
+        "title": "Markup",
+        "href": "/markup/toml"
       },
       "ml": {
         "title": "Ml",
@@ -97,7 +97,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/ts/about_ts_config"
+        "href": "/front_end_notes/ts/collection"
       }
     }
   },
@@ -191,8 +191,8 @@
       "breadcrumb": false
     }
   },
-  "markup": {
-    "title": "Markup",
+  "cpp": {
+    "title": "Cpp",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -209,8 +209,8 @@
       "breadcrumb": false
     }
   },
-  "cpp": {
-    "title": "Cpp",
+  "markup": {
+    "title": "Markup",
     "display": "hidden",
     "type": "page",
     "theme": {
