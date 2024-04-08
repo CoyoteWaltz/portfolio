@@ -30,7 +30,7 @@ export async function modifyFiles() {
           const index = match.indexOf(targetMenuName)
           // get final path: '(' + content
           // content: ../../02learning_notes/xxxx -> xxxx
-          return match.slice(0, 1) + match.slice(index + targetMenuName.length + 1)
+          return `${match.slice(0, 1)}/${match.slice(index + targetMenuName.length + 1)}`
         },
         countMatches: true,
       }
