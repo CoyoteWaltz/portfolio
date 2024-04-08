@@ -202,7 +202,7 @@
 >
 > 付费订阅 8 刀/月/mac or 买断 35 刀/mac
 
-【Archived to [v8 articles](front_end_notes/js/v8/articles_learning.md)】[v8 elements kinds](https://v8.dev/blog/elements-kinds)
+【Archived to [v8 articles](/front_end_notes/js/v8/articles_learning.md)】[v8 elements kinds](https://v8.dev/blog/elements-kinds)
 
 > v8 中是如何处理数组元素的
 >

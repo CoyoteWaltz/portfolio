@@ -602,7 +602,7 @@ Tree shaking 问题排查指南（内部文档 docs/doccn8E1ldDct5uv1EEDQs8Ycwe�
 > 2. **性能更好，避免了操作`dom`带来的额外开销，在`dom`较多情况下性能差异至少`100`倍**
 > 3. 几乎没有副作用，能有效减少`dom`变化引起的其他影响，比如光标选区的处理
 
-【Archived to [commands](shell/commands.md)】[让 history 更好用的 tips](https://cyb.org.uk/2021/05/03/bash-productivity.html)
+【Archived to [commands](/shell/commands.md)】[让 history 更好用的 tips](https://cyb.org.uk/2021/05/03/bash-productivity.html)
 
 > 使用命令行的时候，经常会反复的敲出之前的命令，这篇文章讲了一些 tips，让我们更高效的使用 history
 >
@@ -818,7 +818,7 @@ Tree shaking 问题排查指南（内部文档 docs/doccn8E1ldDct5uv1EEDQs8Ycwe�
 > // { set: new Set([1, 2]), map: new Map([['key', 'value']]) }
 > ```
 
-【Archived to [v8 articles](front_end_notes/js/v8/articles_learning.md)】[v8 hash code](https://v8.dev/blog/hash-code)
+【Archived to [v8 articles](/front_end_notes/js/v8/articles_learning.md)】[v8 hash code](https://v8.dev/blog/hash-code)
 
 > v8 官方 blog
 >
@@ -925,7 +925,7 @@ Tree shaking 问题排查指南（内部文档 docs/doccn8E1ldDct5uv1EEDQs8Ycwe�
 > - Object.keys/entries：因为 ts 是 duck deducing，在 type 之外的属性其实也是合法的，不能仅返回 `keyof T`
 > - Generics for `JSON.parse`, `Response.json` etc
 
-【Archived to [nanostores](front_end_notes/state/nanostores.md)】[状态管理 nanostores](https://github.com/nanostores/nanostores)
+【Archived to [nanostores](/front_end_notes/state/nanostores.md)】[状态管理 nanostores](https://github.com/nanostores/nanostores)
 
 > 细看了源码，写的还是很有意思的，一个 atom store 完成了基础类型变量的状态系统，衍生出 map 处理对象类型，先写的 js 再加的 ts 类型，感觉写起来会方便很多（不用顾及写代码时候的类型了）
 >
@@ -1073,7 +1073,7 @@ day.js
 >
 > 试了下公司的项目，效果却并不是很好（可能是使用姿势不对）
 
-【Archived in [ssr](front_end_notes/ssr/react.md)】[useEffect 在 SSR 的时候为什么不执行](https://codewithhugo.com/react-useeffect-ssr/)
+【Archived in [ssr](/front_end_notes/ssr/react.md)】[useEffect 在 SSR 的时候为什么不执行](https://codewithhugo.com/react-useeffect-ssr/)
 
 > useEffect 只会在 mount/update 之后才会执行（页面上渲染**后**）
 >

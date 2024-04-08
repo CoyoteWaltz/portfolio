@@ -39,7 +39,7 @@
 > - 不使用 `export default`
 > - 编译器使用 rollup 的 auto 模式
 
-【Archived to [ts collections](front_end_notes/ts/collection.md)】[TS 体操：属性互斥](https://zhuanlan.zhihu.com/p/522191794)
+【Archived to [ts collections](/front_end_notes/ts/collection.md)】[TS 体操：属性互斥](https://zhuanlan.zhihu.com/p/522191794)
 
 > 常见场景：其中有 a 和 b 字段是二选一的, foo 是可选的。自己也遇到过，挺棘手的。
 >
@@ -192,7 +192,7 @@
 >
 > 差不多了解到这，后续需要深入再说
 
-【Archived to [v8 articles](front_end_notes/js/v8/articles_learning.md)】[v8 更快的访问 super 属性](https://v8.dev/blog/fast-super)
+【Archived to [v8 articles](/front_end_notes/js/v8/articles_learning.md)】[v8 更快的访问 super 属性](https://v8.dev/blog/fast-super)
 
 > super 关键字可以访问 class 的父类上的属性，依旧是用了 IC(inline cache)（还得去详细学习下）
 >
@@ -588,7 +588,7 @@
 >
 > P.S [prerender](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/prerender) 其实已经不推荐用了
 
-【Archived to [v8 articles](front_end_notes/js/v8/articles_learning.md)】[v8 对象属性访问](https://v8.dev/blog/fast-properties)
+【Archived to [v8 articles](/front_end_notes/js/v8/articles_learning.md)】[v8 对象属性访问](https://v8.dev/blog/fast-properties)
 
 > V8 是如何处理动态新增的属性，让其的访问也能快速
 >

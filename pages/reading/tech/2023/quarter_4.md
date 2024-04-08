@@ -201,7 +201,7 @@
 >
 > 看到一些代码挺有意思：
 >
-> ponyfill，[之前](front_end_notes/browser/index.md)也遇到过，按需使用 polyfill
+> ponyfill，[之前](/front_end_notes/browser/index.md)也遇到过，按需使用 polyfill
 >
 > ```typescript
 > // Number.isNaN as it is not supported in IE11 so conditionally using ponyfill

@@ -1,4 +1,4 @@
-【Archived to [v8 articles](front_end_notes/js/v8/articles_learning.md)】[v8 shape inline cache](https://mathiasbynens.be/notes/shapes-ics)
+【Archived to [v8 articles](/front_end_notes/js/v8/articles_learning.md)】[v8 shape inline cache](https://mathiasbynens.be/notes/shapes-ics)
 
 > 视频来自 JS Conf EU 2018
 >
@@ -649,7 +649,7 @@ Signal 与响应式编程
 
 > 数据库简史合 Snowflake 公司
 
-【Archived to [ts-config](front_end_notes/ts/ts-config.md)】[tsconfig cheat sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)
+【Archived to [ts-config](/front_end_notes/ts/ts-config.md)】[tsconfig cheat sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)
 
 > `tsconfig.json` 真的是令人头大的配置，这篇文章给出了基础的 coding 所需配置和说明，不做翻译了，直接看吧
 
