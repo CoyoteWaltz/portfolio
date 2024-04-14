@@ -3,6 +3,10 @@ import type { DocsThemeConfig } from 'nextra-theme-docs'
 import pkgJSON from './package.json'
 import { Logo } from './components/logo'
 
+import FavIcon16 from './public/favicons/favicon-16x16.png'
+import FavIcon32 from './public/favicons/favicon-32x32.png'
+import FavIconITouch from './public/favicons/apple-touch-icon.png'
+
 const GithubURL = `https${pkgJSON.repository.url.split('https')[1]}`
 const MarkdownGithubURL = 'https://github.com/CoyoteWaltz/MarkdownNotes'
 
@@ -72,6 +76,17 @@ const config: DocsThemeConfig = {
       <div>
         <>Last edited on: {timeStr}</>
       </div>
+    )
+  },
+  head: () => {
+    return (
+      <>
+        <title>Coyote's portfolio</title>
+        <link rel="apple-touch-icon" sizes="180x180" href={FavIconITouch.src} />
+        <link rel="icon" type="image/png" sizes="32x32" href={FavIcon32.src} />
+        <link rel="icon" type="image/png" sizes="16x16" href={FavIcon16.src} />
+        <link rel="manifest" href="/site.webmanifest" />
+      </>
     )
   },
 }
