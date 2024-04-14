@@ -51,29 +51,29 @@
         "title": "Markup",
         "href": "/markup/toml"
       },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "cpp": {
         "title": "Cpp",
         "href": "/cpp/cpp_on_the_fly"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
       },
       "haskell": {
         "title": "Haskell",
         "href": "/haskell/haskell-intro"
       },
-      "openGL": {
-        "title": "Opengl",
-        "href": "/openGL/learnopengl"
-      },
       "blockchain": {
         "title": "Blockchain",
         "href": "/blockchain/what_is_bitcoin_and_blockchain"
+      },
+      "openGL": {
+        "title": "Opengl",
+        "href": "/openGL/learnopengl"
       },
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
@@ -200,8 +200,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -218,8 +218,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -236,8 +236,8 @@
       "breadcrumb": false
     }
   },
-  "openGL": {
-    "title": "Opengl",
+  "blockchain": {
+    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -245,8 +245,8 @@
       "breadcrumb": false
     }
   },
-  "blockchain": {
-    "title": "Blockchain",
+  "openGL": {
+    "title": "Opengl",
     "display": "hidden",
     "type": "page",
     "theme": {
