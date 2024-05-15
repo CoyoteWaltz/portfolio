@@ -39,13 +39,13 @@
         "title": "Git",
         "href": "/git/huge_repo"
       },
-      "golang": {
-        "title": "Golang",
-        "href": "/golang/learn_golang"
-      },
       "rust": {
         "title": "Rust",
         "href": "/rust/begin"
+      },
+      "golang": {
+        "title": "Golang",
+        "href": "/golang/learn_golang"
       },
       "markup": {
         "title": "Markup",
@@ -89,7 +89,7 @@
       },
       "sundries": {
         "title": "Sundries",
-        "href": "/sundries/characters"
+        "href": "/sundries/unicode"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -173,8 +173,8 @@
       "breadcrumb": false
     }
   },
-  "golang": {
-    "title": "Golang",
+  "rust": {
+    "title": "Rust",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -182,8 +182,8 @@
       "breadcrumb": false
     }
   },
-  "rust": {
-    "title": "Rust",
+  "golang": {
+    "title": "Golang",
     "display": "hidden",
     "type": "page",
     "theme": {
