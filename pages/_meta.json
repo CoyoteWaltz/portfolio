@@ -37,7 +37,7 @@
       },
       "git": {
         "title": "Git",
-        "href": "/git/huge_repo"
+        "href": "/git/intro"
       },
       "rust": {
         "title": "Rust",
@@ -47,13 +47,13 @@
         "title": "Golang",
         "href": "/golang/learn_golang"
       },
-      "markup": {
-        "title": "Markup",
-        "href": "/markup/toml"
-      },
       "ml": {
         "title": "Ml",
         "href": "/ml/gaussian_bayes"
+      },
+      "markup": {
+        "title": "Markup",
+        "href": "/markup/toml"
       },
       "cpp": {
         "title": "Cpp",
@@ -83,13 +83,13 @@
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "python": {
-        "title": "Python",
-        "href": "/python/learn_flask"
-      },
       "sundries": {
         "title": "Sundries",
         "href": "/sundries/unicode"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/python/learn_flask"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -97,7 +97,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/browser/html"
+        "href": "/front_end_notes/css/selector"
       }
     }
   },
@@ -191,8 +191,8 @@
       "breadcrumb": false
     }
   },
-  "markup": {
-    "title": "Markup",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -200,8 +200,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "markup": {
+    "title": "Markup",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -272,8 +272,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -281,8 +281,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
