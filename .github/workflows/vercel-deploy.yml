@@ -45,6 +45,7 @@ jobs:
           git config user.email coyote_waltz@163.com
           git add .
           git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}
+          git config --global --unset http.proxy
           git commit --allow-empty -m "ci: sync markdown after run layout [skip actions]" --no-verify
           git push
       - name: Pull Vercel Environment Information
