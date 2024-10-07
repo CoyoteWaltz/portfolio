@@ -83,13 +83,13 @@
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "python": {
-        "title": "Python",
-        "href": "/python/learn_flask"
-      },
       "sundries": {
         "title": "Sundries",
         "href": "/sundries/unicode"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/python/learn_flask"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -272,8 +272,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -281,8 +281,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
