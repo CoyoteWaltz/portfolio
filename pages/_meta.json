@@ -47,13 +47,13 @@
         "title": "Golang",
         "href": "/golang/learn_golang"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
-      },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "cpp": {
         "title": "Cpp",
@@ -83,13 +83,13 @@
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "sundries": {
-        "title": "Sundries",
-        "href": "/sundries/unicode"
-      },
       "python": {
         "title": "Python",
         "href": "/python/learn_flask"
+      },
+      "sundries": {
+        "title": "Sundries",
+        "href": "/sundries/unicode"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -191,8 +191,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "markup": {
+    "title": "Markup",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -200,8 +200,8 @@
       "breadcrumb": false
     }
   },
-  "markup": {
-    "title": "Markup",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -272,8 +272,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -281,8 +281,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
