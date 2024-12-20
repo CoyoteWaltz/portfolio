@@ -39,13 +39,13 @@
         "title": "Git",
         "href": "/git/intro"
       },
-      "rust": {
-        "title": "Rust",
-        "href": "/rust/begin"
-      },
       "golang": {
         "title": "Golang",
         "href": "/golang/learn_golang"
+      },
+      "rust": {
+        "title": "Rust",
+        "href": "/rust/begin"
       },
       "markup": {
         "title": "Markup",
@@ -83,13 +83,13 @@
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "python": {
-        "title": "Python",
-        "href": "/python/learn_flask"
-      },
       "sundries": {
         "title": "Sundries",
         "href": "/sundries/unicode"
+      },
+      "python": {
+        "title": "Python",
+        "href": "/python/learn_flask"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -173,8 +173,8 @@
       "breadcrumb": false
     }
   },
-  "rust": {
-    "title": "Rust",
+  "golang": {
+    "title": "Golang",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -182,8 +182,8 @@
       "breadcrumb": false
     }
   },
-  "golang": {
-    "title": "Golang",
+  "rust": {
+    "title": "Rust",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -272,8 +272,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -281,8 +281,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
