@@ -55,17 +55,21 @@
         "title": "Cpp",
         "href": "/cpp/cpp_on_the_fly"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
-      },
       "shell": {
         "title": "Shell",
         "href": "/shell/commands"
       },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
+      },
       "haskell": {
         "title": "Haskell",
         "href": "/haskell/haskell-intro"
+      },
+      "data_structure_&_algorithm": {
+        "title": "Data Structure & Algorithm",
+        "href": "/data_structure_&_algorithm/Tree and forest"
       },
       "openGL": {
         "title": "Opengl",
@@ -74,10 +78,6 @@
       "blockchain": {
         "title": "Blockchain",
         "href": "/blockchain/what_is_bitcoin_and_blockchain"
-      },
-      "data_structure_&_algorithm": {
-        "title": "Data Structure & Algorithm",
-        "href": "/data_structure_&_algorithm/Tree and forest"
       },
       "linux": {
         "title": "Linux",
@@ -209,15 +209,6 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "shell": {
     "title": "Shell",
     "display": "hidden",
@@ -227,8 +218,26 @@
       "breadcrumb": false
     }
   },
+  "ml": {
+    "title": "Ml",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "haskell": {
     "title": "Haskell",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -247,15 +256,6 @@
   },
   "blockchain": {
     "title": "Blockchain",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
