@@ -43,17 +43,21 @@
         "title": "Git",
         "href": "/git/intro"
       },
-      "rust": {
-        "title": "Rust",
-        "href": "/rust/materials"
-      },
       "golang": {
         "title": "Golang",
         "href": "/golang/learn_golang"
       },
+      "rust": {
+        "title": "Rust",
+        "href": "/rust/materials"
+      },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
+      },
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "cpp": {
         "title": "Cpp",
@@ -63,13 +67,13 @@
         "title": "Shell",
         "href": "/shell/commands"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
-      },
       "haskell": {
         "title": "Haskell",
         "href": "/haskell/haskell-intro"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchain/bitcoin"
       },
       "openGL": {
         "title": "Opengl",
@@ -78,10 +82,6 @@
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
         "href": "/data_structure_&_algorithm/Tree and forest"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "href": "/blockchain/bitcoin"
       },
       "linux": {
         "title": "Linux",
@@ -186,15 +186,6 @@
       "breadcrumb": false
     }
   },
-  "rust": {
-    "title": "Rust",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "golang": {
     "title": "Golang",
     "display": "hidden",
@@ -204,8 +195,26 @@
       "breadcrumb": false
     }
   },
+  "rust": {
+    "title": "Rust",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "markup": {
     "title": "Markup",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -231,8 +240,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "haskell": {
+    "title": "Haskell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -240,8 +249,8 @@
       "breadcrumb": false
     }
   },
-  "haskell": {
-    "title": "Haskell",
+  "blockchain": {
+    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -260,15 +269,6 @@
   },
   "data_structure_&_algorithm": {
     "title": "Data Structure & Algorithm",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "blockchain": {
-    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
