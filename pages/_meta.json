@@ -11,6 +11,10 @@
         "title": "Z Todo",
         "href": "/Z-TODO"
       },
+      "redis": {
+        "title": "Redis",
+        "href": "/redis/intro"
+      },
       "prompt_engineer": {
         "title": "Prompt Engineer",
         "href": "/prompt_engineer/intro"
@@ -35,10 +39,6 @@
         "title": "SQL",
         "href": "/sql/learn_sql"
       },
-      "redis": {
-        "title": "Redis",
-        "href": "/redis/intro"
-      },
       "git": {
         "title": "Git",
         "href": "/git/intro"
@@ -55,25 +55,21 @@
         "title": "Markup",
         "href": "/markup/toml"
       },
-      "ml": {
-        "title": "Ml",
-        "href": "/ml/gaussian_bayes"
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
       },
       "cpp": {
         "title": "Cpp",
         "href": "/cpp/cpp_on_the_fly"
       },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
+      "ml": {
+        "title": "Ml",
+        "href": "/ml/gaussian_bayes"
       },
       "haskell": {
         "title": "Haskell",
         "href": "/haskell/haskell-intro"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "href": "/blockchain/bitcoin"
       },
       "openGL": {
         "title": "Opengl",
@@ -83,17 +79,21 @@
         "title": "Data Structure & Algorithm",
         "href": "/data_structure_&_algorithm/Tree and forest"
       },
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchain/bitcoin"
+      },
       "linux": {
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "sundries": {
-        "title": "Sundries",
-        "href": "/sundries/unicode"
-      },
       "python": {
         "title": "Python",
         "href": "/python/learn_flask"
+      },
+      "sundries": {
+        "title": "Sundries",
+        "href": "/sundries/unicode"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -107,6 +107,15 @@
   },
   "Z-TODO": {
     "title": "Z Todo",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "redis": {
+    "title": "Redis",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -168,15 +177,6 @@
       "breadcrumb": false
     }
   },
-  "redis": {
-    "title": "Redis",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "git": {
     "title": "Git",
     "display": "hidden",
@@ -213,8 +213,8 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -231,8 +231,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -242,15 +242,6 @@
   },
   "haskell": {
     "title": "Haskell",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
-  "blockchain": {
-    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -276,6 +267,15 @@
       "breadcrumb": false
     }
   },
+  "blockchain": {
+    "title": "Blockchain",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
   "linux": {
     "title": "Linux",
     "display": "hidden",
@@ -285,8 +285,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -294,8 +294,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
