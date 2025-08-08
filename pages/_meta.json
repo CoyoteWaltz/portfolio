@@ -43,29 +43,29 @@
         "title": "Git",
         "href": "/git/intro"
       },
-      "golang": {
-        "title": "Golang",
-        "href": "/golang/learn_golang"
-      },
       "rust": {
         "title": "Rust",
         "href": "/rust/materials"
       },
-      "cpp": {
-        "title": "Cpp",
-        "href": "/cpp/cpp_on_the_fly"
+      "golang": {
+        "title": "Golang",
+        "href": "/golang/learn_golang"
       },
       "markup": {
         "title": "Markup",
         "href": "/markup/toml"
       },
-      "shell": {
-        "title": "Shell",
-        "href": "/shell/commands"
-      },
       "ml": {
         "title": "Ml",
         "href": "/ml/gaussian_bayes"
+      },
+      "cpp": {
+        "title": "Cpp",
+        "href": "/cpp/cpp_on_the_fly"
+      },
+      "shell": {
+        "title": "Shell",
+        "href": "/shell/commands"
       },
       "haskell": {
         "title": "Haskell",
@@ -75,25 +75,25 @@
         "title": "Opengl",
         "href": "/openGL/learnopengl"
       },
-      "blockchain": {
-        "title": "Blockchain",
-        "href": "/blockchain/bitcoin"
-      },
       "data_structure_&_algorithm": {
         "title": "Data Structure & Algorithm",
         "href": "/data_structure_&_algorithm/Tree and forest"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "href": "/blockchain/bitcoin"
       },
       "linux": {
         "title": "Linux",
         "href": "/linux/linux_ubuntu_config_archived"
       },
-      "sundries": {
-        "title": "Sundries",
-        "href": "/sundries/unicode"
-      },
       "python": {
         "title": "Python",
         "href": "/python/learn_flask"
+      },
+      "sundries": {
+        "title": "Sundries",
+        "href": "/sundries/unicode"
       },
       "computer_graphics": {
         "title": "Computer Graphics",
@@ -101,7 +101,7 @@
       },
       "front_end_notes": {
         "title": "Front End Notes",
-        "href": "/front_end_notes/css/CSS"
+        "href": "/front_end_notes/ts/about_ts_config"
       }
     }
   },
@@ -186,15 +186,6 @@
       "breadcrumb": false
     }
   },
-  "golang": {
-    "title": "Golang",
-    "display": "hidden",
-    "type": "page",
-    "theme": {
-      "toc": true,
-      "breadcrumb": false
-    }
-  },
   "rust": {
     "title": "Rust",
     "display": "hidden",
@@ -204,8 +195,8 @@
       "breadcrumb": false
     }
   },
-  "cpp": {
-    "title": "Cpp",
+  "golang": {
+    "title": "Golang",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -222,8 +213,8 @@
       "breadcrumb": false
     }
   },
-  "shell": {
-    "title": "Shell",
+  "ml": {
+    "title": "Ml",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -231,8 +222,17 @@
       "breadcrumb": false
     }
   },
-  "ml": {
-    "title": "Ml",
+  "cpp": {
+    "title": "Cpp",
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "shell": {
+    "title": "Shell",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -258,8 +258,8 @@
       "breadcrumb": false
     }
   },
-  "blockchain": {
-    "title": "Blockchain",
+  "data_structure_&_algorithm": {
+    "title": "Data Structure & Algorithm",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -267,8 +267,8 @@
       "breadcrumb": false
     }
   },
-  "data_structure_&_algorithm": {
-    "title": "Data Structure & Algorithm",
+  "blockchain": {
+    "title": "Blockchain",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -285,8 +285,8 @@
       "breadcrumb": false
     }
   },
-  "sundries": {
-    "title": "Sundries",
+  "python": {
+    "title": "Python",
     "display": "hidden",
     "type": "page",
     "theme": {
@@ -294,8 +294,8 @@
       "breadcrumb": false
     }
   },
-  "python": {
-    "title": "Python",
+  "sundries": {
+    "title": "Sundries",
     "display": "hidden",
     "type": "page",
     "theme": {
